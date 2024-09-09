@@ -7,6 +7,6 @@ public class Hashing {
         map.put(343, 45656);
         map.put(565, 67878);
         map.put(787, 89090);
-        System.out.println(map);
+        System.out.println(map.get(122));
     }
 }
