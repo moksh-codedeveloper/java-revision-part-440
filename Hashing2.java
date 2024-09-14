@@ -38,6 +38,7 @@ public class Hashing2 {
 
             return -1;
         }
+        @SuppressWarnings("unchecked")
         private void rehash(){
             LinkedList<Node> oldBuckets[] = buckets;
             buckets = new LinkedList[N*2];
